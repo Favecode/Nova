@@ -1,0 +1,185 @@
+//#region src/lib/mock-admin.ts
+var MOCK_ORDERS = [
+	{
+		id: "ORD-1042",
+		customer: "Olivia Bennett",
+		email: "olivia@example.com",
+		date: "2026-06-12",
+		total: 248.99,
+		status: "Delivered",
+		items: 3
+	},
+	{
+		id: "ORD-1041",
+		customer: "Marcus Lin",
+		email: "marcus@example.com",
+		date: "2026-06-12",
+		total: 89,
+		status: "Shipped",
+		items: 1
+	},
+	{
+		id: "ORD-1040",
+		customer: "Aisha Patel",
+		email: "aisha@example.com",
+		date: "2026-06-11",
+		total: 412.5,
+		status: "Processing",
+		items: 4
+	},
+	{
+		id: "ORD-1039",
+		customer: "Noah Schmidt",
+		email: "noah@example.com",
+		date: "2026-06-11",
+		total: 64,
+		status: "Delivered",
+		items: 1
+	},
+	{
+		id: "ORD-1038",
+		customer: "Yuki Tanaka",
+		email: "yuki@example.com",
+		date: "2026-06-10",
+		total: 156.3,
+		status: "Cancelled",
+		items: 2
+	},
+	{
+		id: "ORD-1037",
+		customer: "Diego Alvarez",
+		email: "diego@example.com",
+		date: "2026-06-09",
+		total: 729,
+		status: "Delivered",
+		items: 5
+	},
+	{
+		id: "ORD-1036",
+		customer: "Hannah Roy",
+		email: "hannah@example.com",
+		date: "2026-06-08",
+		total: 49,
+		status: "Shipped",
+		items: 1
+	},
+	{
+		id: "ORD-1035",
+		customer: "Liam O'Connor",
+		email: "liam@example.com",
+		date: "2026-06-07",
+		total: 199,
+		status: "Delivered",
+		items: 1
+	}
+];
+var MOCK_CUSTOMERS = [
+	{
+		id: "C-201",
+		name: "Olivia Bennett",
+		email: "olivia@example.com",
+		orders: 12,
+		spent: 1842.5,
+		joined: "2024-08-12"
+	},
+	{
+		id: "C-202",
+		name: "Marcus Lin",
+		email: "marcus@example.com",
+		orders: 4,
+		spent: 389,
+		joined: "2025-01-22"
+	},
+	{
+		id: "C-203",
+		name: "Aisha Patel",
+		email: "aisha@example.com",
+		orders: 9,
+		spent: 2104,
+		joined: "2024-05-03"
+	},
+	{
+		id: "C-204",
+		name: "Noah Schmidt",
+		email: "noah@example.com",
+		orders: 2,
+		spent: 128,
+		joined: "2025-11-30"
+	},
+	{
+		id: "C-205",
+		name: "Yuki Tanaka",
+		email: "yuki@example.com",
+		orders: 7,
+		spent: 967.2,
+		joined: "2024-12-15"
+	},
+	{
+		id: "C-206",
+		name: "Diego Alvarez",
+		email: "diego@example.com",
+		orders: 15,
+		spent: 3920,
+		joined: "2023-09-01"
+	}
+];
+var REVENUE_SERIES = [
+	{
+		m: "Jan",
+		revenue: 12400,
+		orders: 142
+	},
+	{
+		m: "Feb",
+		revenue: 14800,
+		orders: 168
+	},
+	{
+		m: "Mar",
+		revenue: 13200,
+		orders: 151
+	},
+	{
+		m: "Apr",
+		revenue: 17600,
+		orders: 199
+	},
+	{
+		m: "May",
+		revenue: 21300,
+		orders: 241
+	},
+	{
+		m: "Jun",
+		revenue: 24900,
+		orders: 287
+	}
+];
+var CATEGORY_SERIES = [
+	{
+		name: "Electronics",
+		value: 42
+	},
+	{
+		name: "Fashion",
+		value: 22
+	},
+	{
+		name: "Home",
+		value: 14
+	},
+	{
+		name: "Beauty",
+		value: 10
+	},
+	{
+		name: "Sports",
+		value: 8
+	},
+	{
+		name: "Books",
+		value: 4
+	}
+];
+//#endregion
+export { REVENUE_SERIES as i, MOCK_CUSTOMERS as n, MOCK_ORDERS as r, CATEGORY_SERIES as t };
